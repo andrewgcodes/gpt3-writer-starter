@@ -14,10 +14,14 @@ const Home = () => {
             <h1>sup, insert your headline here</h1>
           </div>
           <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
+            <h2>insert your subtitle here!</h2>
           </div>
         </div>
+        <div className="prompt-container">
+          <textarea placeholder="start typing here" className="prompt-box" />
+        </div>
       </div>
+
       <div className="badge-container grow">
         <a
           href="https://buildspace.so/builds/ai-writer"
